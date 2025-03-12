@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Este site é para marketing de comida!">
+    <meta name="author" content="O conselho">
+    <meta https-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Cardápio</title>
+    <style>
+        body {
+            background-image: url('../Thumbs/background1.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .box_cadastro {
+            border-radius: 5%;
+            width: 350px;
+            background-color: #ffd9a0;
+            color: rgb(0, 0, 0);
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            text-align: center;
+        }
+
+        .botão_enviar {
+            border-left-color: black;
+            width: 70%;
+            padding: 10px;
+            margin-top: 10px;
+            border-radius: 5px;
+            border: none;
+            background-color: #7b8cd1;
+            color: #000000;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .entrada_cadastro {
+            width: 70%;
+            padding: 10px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="box_cadastro">
+        <h1>Cardápio</h1>
+        <form id="loginform">
+            <input class="entrada_cadastro" type="text" placeholder="Digite seu nome completo" maxlength="100" required>
+            <input class="entrada_cadastro" type="tel" placeholder="Digite seu Numero celular" maxlength="20" required>
+            <input class="entrada_cadastro" type="text" placeholder="Digite seu endereço" maxlength="200" required>
+            <button class="botão_enviar" type="submit">Enviar</button>
+
+        </form>
+    </div>
+
+</body>
+
+</html>
